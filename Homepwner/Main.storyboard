@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Items View Controller-->
+        <!--Homepwner-->
         <scene sceneID="ugi-Oq-hIf">
             <objects>
                 <tableViewController id="8zy-3B-Vn8" customClass="ItemsViewController" customModule="Homepwner" customModuleProvider="target" sceneMemberID="viewController">
@@ -97,7 +97,7 @@
                             <outlet property="delegate" destination="8zy-3B-Vn8" id="7lL-E1-m7G"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Zoo-7C-na8"/>
+                    <navigationItem key="navigationItem" title="Homepwner" id="Zoo-7C-na8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3t-fj-VUp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -185,11 +185,15 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="b9q-eF-FWp" firstAttribute="leading" secondItem="oto-96-t2s" secondAttribute="leading" id="1Sm-Aa-ehq"/>
                                     <constraint firstItem="oto-96-t2s" firstAttribute="leading" secondItem="0E5-3v-7fL" secondAttribute="leading" id="FIa-f6-3C5"/>
                                     <constraint firstItem="jYp-Nf-5U5" firstAttribute="leading" secondItem="3OC-Jf-M8X" secondAttribute="leading" id="axI-dk-lHn"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bUQ-xC-T9H" appends="YES" id="nDq-JU-5mJ"/>
+                                </connections>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -209,6 +213,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oa5-lK-Tvw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bUQ-xC-T9H">
+                    <connections>
+                        <action selector="backgroundTapped:" destination="jql-tx-P24" id="Qak-Nu-Eai"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1868" y="163.26836581709148"/>
         </scene>

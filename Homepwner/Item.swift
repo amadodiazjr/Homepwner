@@ -1,6 +1,6 @@
 import UIKit
 
-class Item: NSObject {
+class Item: NSObject, NSCoding {
     var name: String
     var valueInDollars: Int
     var serialNumber: String?
@@ -17,6 +17,24 @@ class Item: NSObject {
         super.init()
     }
     
+    required init(coder aDecoder: NSCoder) {
+        name = aDecoder.decodeObject(forKey: "name") as! String
+        dateCreated = aDecoder.decodeObject(forKey: "dateCreated") as! NSDate
+        itemKey = aDecoder.decodeObject(forKey: "itemKey") as! String
+        serialNumber = aDecoder.decodeObject(forKey: "serialNumber") as? String
+        valueInDollars = aDecoder.decodeInteger(forKey: "valueInDollars")
+        
+        super.init()
+    }
+    
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(name, forKey: "name")
+        aCoder.encode(dateCreated, forKey: "dateCreated")
+        aCoder.encode(itemKey, forKey: "itemKey")
+        aCoder.encode(serialNumber, forKey: "serialNumber")
+        aCoder.encode(valueInDollars, forKey: "valueInDollars")
+    }
+
     convenience init(random: Bool = false) {
         if random {
             let adjectives = ["Fluffy", "Rusty", "Shiny"]

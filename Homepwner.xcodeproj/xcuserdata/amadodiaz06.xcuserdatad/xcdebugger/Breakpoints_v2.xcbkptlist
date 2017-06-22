@@ -24,7 +24,7 @@
                   moduleName = "Homepwner"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/amadodiaz06/sandbox/play/xcode/Homepwner/Homepwner/AppDelegate.swift"
-                  timestampString = "518736888.353766"
+                  timestampString = "519844680.762251"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -39,7 +39,7 @@
                   moduleName = "Homepwner"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/amadodiaz06/sandbox/play/xcode/Homepwner/Homepwner/AppDelegate.swift"
-                  timestampString = "518736888.35556"
+                  timestampString = "519844680.764675"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -54,7 +54,7 @@
                   moduleName = "Homepwner"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/amadodiaz06/sandbox/play/xcode/Homepwner/Homepwner/AppDelegate.swift"
-                  timestampString = "518736888.357178"
+                  timestampString = "519844680.766305"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -69,7 +69,7 @@
                   moduleName = "Homepwner"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/amadodiaz06/sandbox/play/xcode/Homepwner/Homepwner/AppDelegate.swift"
-                  timestampString = "518736888.358503"
+                  timestampString = "519844680.767822"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -92,6 +92,38 @@
             startingLineNumber = "71"
             endingLineNumber = "71"
             landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Homepwner/ImageStore.swift"
+            timestampString = "519844679.516375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setImage(image:forKey:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Homepwner/ImageStore.swift"
+            timestampString = "519844105.132109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "imageForKey(key:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
